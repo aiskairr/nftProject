@@ -1,0 +1,50 @@
+.container{
+    margin: 0 auto;
+    display: flex;
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+    background-color: black;
+    .nftInfo__wrapper{
+        height: 60vh;
+        border: 1px solid black; 
+        background-color: white;
+        border-radius: 10px;
+        width: 60%;
+        display: flex;
+        justify-content: space-between;
+        .image__wrapper{
+            width: 50%;
+            img{
+                width: 100%;
+                height: 60vh;
+                border-radius: 10px 0 0 10px;
+            }
+        }
+        .info__wrapper{
+            display: flex;
+            height: 60vh;
+            justify-content: space-evenly;
+            flex-direction: column;
+            width: 46%;
+            text-align: start;
+            p,span, a{
+                margin: 0;
+                padding: 0;
+                font-family: 'Ubuntu', sans-serif;
+                font-weight: bold;
+            }
+            a{
+                text-decoration: none;
+            }
+            .back__link{
+                background-color: blueviolet;
+                width: fit-content;
+                padding: 10px 30px;
+                border-radius: 10px;
+                color: white;
+            }
+        }
+    }
+}
+
