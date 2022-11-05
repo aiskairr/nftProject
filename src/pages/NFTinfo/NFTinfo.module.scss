@@ -47,4 +47,32 @@
         }
     }
 }
-
+@media (max-width: 1100px){
+    .container{
+        .nftInfo__wrapper{
+            width: 80%;
+        }
+    }
+}
+@media (max-width: 950px){
+    .container{
+        .nftInfo__wrapper{
+            width: 90%;
+        }
+    }
+}
+@media (max-width: 768px){
+    .container{
+        .nftInfo__wrapper{
+            width: 95%;
+        }
+    }
+}
+@media (max-width: 600px){
+    .container{
+        .nftInfo__wrapper{
+            width: 100%;
+            display: flex;
+        }
+    }
+}
